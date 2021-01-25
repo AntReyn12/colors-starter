@@ -59,6 +59,13 @@ footer {
 /* Change the background colors below */
 
 @media (min-width: 768px) {
+  .col-3 {
+      width: 50%;
+  }
+
+  #column-1 {
+      width: 100%
+}
   header {
     background-color: AliceBlue;
   }
@@ -76,7 +83,7 @@ footer {
   }
 
   footer {
-    background-color: Cyan;
+    background-color: DarkGreen;
   }
 
 }
@@ -84,6 +91,14 @@ footer {
 
 /*---------- Desktops ----------*/
 @media (min-width: 1200px) {
+
+  .col-3 {
+      width: 33.3%
+  }
+
+  #column-1 {
+      width: 33.3%
+  }
   header {
     background-color: Cornsilk;
   }
